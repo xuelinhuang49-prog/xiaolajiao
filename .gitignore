@@ -1,0 +1,68 @@
+# ============================================
+# 小辣椒 (XiaoLaJiao) — 助老陪伴机器人
+# Git 忽略清单（找工作公开仓库用）
+# ============================================
+
+# ---------- 敏感信息：严禁提交 ----------
+# 私有 CA / 服务器证书与密钥
+https_certs/
+https_certs_backup/
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+
+# 家人照片（个人隐私，不随代码公开）
+grandma.jpg
+grandpa.jpg
+son.jpg
+both.jpg
+儿子.png
+
+# 个人联系人配置（仓库里用 contacts.example.json 作示例）
+contacts.json
+
+# ---------- 运行时数据 / 缓存 ----------
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+*.sqlite3
+*.db
+*.log
+
+# ---------- 备份 / 临时目录 ----------
+_backup*/
+*.bak
+*.orig
+
+# ---------- 大文件 / 版权不明素材 ----------
+# 角色设计参考图（体积大，仅设计资产）
+character_references/
+# 本地音频（秦腔等，来源/版权请自行确认后再放开）
+audio/
+*.mp3
+*.m4a
+*.ogg
+*.wav
+
+# ---------- 历史版本噪声（仅保留正式说明文档）----------
+# 早期被编码成 #UXXXX 的旧文件（已重命名的正式文件不在此列）
+\#U*
+# 各版本升级流水说明 txt/md
+V*.txt
+V*.md
+P2*.txt
+P2*.md
+V4*.txt
+*.txt
+!requirements.txt
+!小辣椒/Modelfile.txt
+
+# 多余的图片版本（仅保留 xiaolajiao.png 作为项目主形象）
+xiaolajiao_old.png
+xiaolajiao_orig.png
+xiaolajiao_t.png
+xiaolajiao_t_orig.png
+xiaolajiao_v33_source.png

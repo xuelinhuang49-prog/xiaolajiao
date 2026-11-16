@@ -1,0 +1,32 @@
+[
+  {
+    "name": "小辣椒",
+    "photo": "xiaolajiao.png",
+    "emoji": "🌶️"
+  },
+  {
+    "name": "儿子",
+    "photo": "",
+    "emoji": "👨"
+  },
+  {
+    "name": "女儿",
+    "photo": "",
+    "emoji": "👧"
+  },
+  {
+    "name": "孙子",
+    "photo": "",
+    "emoji": "👦"
+  },
+  {
+    "name": "孙女",
+    "photo": "",
+    "emoji": "👧"
+  },
+  {
+    "name": "村医",
+    "photo": "",
+    "emoji": "👨‍⚕️"
+  }
+]
